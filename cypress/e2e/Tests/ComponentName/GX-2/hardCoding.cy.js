@@ -13,7 +13,7 @@ describe("TC Hard Code - Login", () =>
         .type("12345")
         cy.get("button[type='submit']")
         .click();
-        cy.contains("Hello").should("be.visible")
+        cy.contains("HELLO").should("be.visible")
 
     })
 
